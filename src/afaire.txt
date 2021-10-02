@@ -1,0 +1,16 @@
+En gros : 
+
+- on appuie sur le bouton dans notre fonction 
+- on crée une fonction sur notre bouton, pour le rendre "onclick"
+- quand on appuie sur le bouton il change de ligne
+- quand il change de ligne il doit garder sa "tache" 
+- rajouter l'évenement onClick sur le bouton list.etat
+3
+
+<button onClick={switchAFaire}>{list.etat}</button>
+
+function switchAFaire({ etat, etat2 }) {
+  useEffect(() => {
+    console.log("value of 'a' changed to", etat);
+  }, [etat]);
+}

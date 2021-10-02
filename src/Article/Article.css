@@ -1,0 +1,15 @@
+.new1 {
+    border: 1px solid black;
+    width: 40%;
+    background-color: ivory;
+    margin: auto; 
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .boite {
+      text-align: center;
+      margin-top: 20px;
+  }
